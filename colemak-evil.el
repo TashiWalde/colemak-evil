@@ -171,8 +171,8 @@ Shortcuts:
 ;;; Turbo navigation mode
 (set-in-navigation-evil-states "I" '(lambda () (interactive) (evil-forward-char 5)))
 (set-in-navigation-evil-states "N" '(lambda () (interactive) (evil-backward-char 5)))
-(set-in-navigation-evil-states "E" '(lambda () (interactive) (evil-next-line 5)))
-(set-in-navigation-evil-states "U" '(lambda () (interactive) (evil-previous-line 5)))
+(set-in-navigation-evil-states "E" '(lambda () (interactive) (evil-next-line 10)))
+(set-in-navigation-evil-states "U" '(lambda () (interactive) (evil-previous-line 10)))
 
 ;;; Beginning/end of line (home/end)
 ;; Use back-to-indentation instead of evil-beginning-of-line so that
